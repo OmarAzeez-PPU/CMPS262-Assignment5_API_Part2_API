@@ -2,7 +2,7 @@ const express = require("express");
 const inventoryRoutes = require("./src/inventory/routes");
 
 const app = express();
-const port = 8004;
+const port = 8003;
 
 app.use(express.json());
 
@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 app.get("/", (req, res) => {
-    res.send("Hello PPU - Omar Azeez");
+    res.send("Hello PPU");
 })
 
 // api route

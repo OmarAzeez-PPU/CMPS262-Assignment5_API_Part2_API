@@ -29,7 +29,7 @@ const addNewCar = (req, res ) => {
 
 // update inventory
 const updateCarYear = (req, res) => {
-    const { year, id } = req.body;
+    const {year, id } = req.body;
     pool.query(queries.updateCarYear, [year, id], (error, results) => {
         if(error) throw error;
         res.status(200).send("Updated Inventory Successfully");

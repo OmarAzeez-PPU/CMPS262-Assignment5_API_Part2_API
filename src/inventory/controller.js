@@ -42,4 +42,5 @@ module.exports = {
     getInventoryById,
     addNewCar,
     updateCarYear,
+
 };

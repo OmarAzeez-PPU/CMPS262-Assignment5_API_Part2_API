@@ -6,13 +6,13 @@ const pool = new Pool({
     user: "oazeez",
 
     // host: "localhost",
-    host: "dpg-co5mbluv3ddc7393dfig-a",
+    host: "dpg-crangalds78s73d73a40-a",
 
     // database: "inventory",
-    database: "inventory_5bns",
+    database: "inventory_lais",
 
     // password: "PPU7$$7",
-    password: "YhuC9XoJsZ6eITRoiuhxQZ2yY4PEF450",
+    password: "v23InVINwOiyV5kFvpZ8kMxXynFbZAGE",
 
     port: 5432,
 });
